@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#header {
+    display: flex;
+    min-height: 70px;
+    background-color: lightskyblue;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    min-height: 70px;
+}
+
+.banner img {
+    width: 100%;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 50px 100px;
+    height: 500px;
+}
+
+#main .artuno {
+    background-color: red;
+}
+#main .artdos {
+    background-color: rgb(61, 180, 57);
+}
+#main .arttres {
+    background-color: rgb(70, 53, 163);
+}
+
+@media (max-width:600px){
+    #header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
