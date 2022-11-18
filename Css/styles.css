@@ -165,8 +165,12 @@ nav a:hover {
         flex-direction: column;
         
     }
+    nav a {
+        font-size: small;
+    }
     nav{
         padding: 10px 0px;
+        
     }
     .separador h1{
         font-size: 15px;
@@ -196,10 +200,31 @@ nav a:hover {
         font-size: larger;
         margin-top: auto;
     }
-   
+
+    #footer .logo {
+        height: 20px;
+    }
+    #footer .contactos img{
+        height: 20px;
+    }
+    #footer p {
+        font-size: small;
+    }
+
+
 }
 
+
 @media (min-width:601px){
+    .logo img {
+        height: 30px;    
+    }
+    nav a {
+        font-size: medium;
+    }
+    .separador h1{
+        font-size: 25px;
+    }
     #main .artuno img {
         height: 200px;
         margin-top: auto;
@@ -226,7 +251,14 @@ nav a:hover {
     }
 
 }
+
+
+
 @media (max-width:359px){
+
+    nav {
+        font-size: small;
+    }
     #main .artuno img {
         height: 100px;
         margin-top: auto;
@@ -234,6 +266,7 @@ nav a:hover {
     #main .artuno p {
         font-size: medium;
         margin-top: auto;
+        text-align: center;
     }
     #main .artdos img {
         height: 70px;
@@ -242,6 +275,7 @@ nav a:hover {
     #main .artdos p {
         font-size: medium;
         margin-top: auto;
+        text-align: center;
     }
     #main .arttres img {
         height: 100px;
@@ -250,16 +284,65 @@ nav a:hover {
     #main .arttres p {
         font-size: medium;
         margin-top: auto;
+        text-align: center;
     }
 
 }
 
+@media (max-width:319px){
+    .logo img {
+        height: 30px;
+    }
+    nav a {
+        font-size: smaller;
+    }
+    nav {
+        padding: 5px 0px;
+    }
+    #main .artuno img {
+        height: 70px;
+        margin-top: auto;
+    }
+    #main .artuno p {
+        font-size: smaller;
+        margin-top: auto;
+        text-align: center;
+    }
+    #main .artdos img {
+        height: 40px;
+        margin-top: auto;
+    }
+    #main .artdos p {
+        font-size: smaller;
+        margin-top: auto;
+        text-align: center;
+    }
+    #main .arttres img {
+        height: 50px;
+        margin-top: auto;
+    }
+    #main .arttres p {
+        font-size: smaller;
+        margin-top: auto;
+        text-align: center;
+    }
+
+}
+@media (min-width:400px) and (max-width:599px){
+    nav a {
+        font-size: medium;
+    }
+}
 @media (max-width:440px){
     #main {
         display: flex;
         flex-direction: column;
        
     }
+    
+    
+
+
 }
 
 
