@@ -145,14 +145,61 @@ nav a:hover {
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 1rem;
+    
 }
 
 #footer .contactos img{
     height: 40px;
+    padding: 5px;
 }
 
 #footer p {
     font-size: medium;
+}
+
+
+#presentacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+#presentacion .titulo{
+    padding: 10px 0px;
+    
+}
+#presentacion .info{
+    background-color: rgb(112, 149, 170);
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    border: 1px solid black;
+    
+}
+
+#marcas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    
+}
+
+.logomarcas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 10px;
+    margin: 50px 100px;
+}
+
+.logomarcas img {
+    width: 100%;
+    height: auto;
+    
+    
 }
 
 
@@ -286,7 +333,14 @@ nav a:hover {
         margin-top: auto;
         text-align: center;
     }
+    
 
+}
+
+@media (max-width:480px){
+    #marcas .titulo h2{
+        font-size: medium;
+    }
 }
 
 @media (max-width:319px){
@@ -326,6 +380,9 @@ nav a:hover {
         margin-top: auto;
         text-align: center;
     }
+    #marcas .titulo h2{
+        font-size: small;
+    }
 
 }
 @media (min-width:400px) and (max-width:599px){
@@ -344,6 +401,16 @@ nav a:hover {
 
 
 }
+@media (max-width:400px){
+    .logomarcas {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+}
+
+
 
 
 
