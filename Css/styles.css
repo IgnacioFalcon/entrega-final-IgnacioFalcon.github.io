@@ -226,6 +226,41 @@ nav a:hover {
     }
 
 }
+@media (max-width:359px){
+    #main .artuno img {
+        height: 100px;
+        margin-top: auto;
+    }
+    #main .artuno p {
+        font-size: medium;
+        margin-top: auto;
+    }
+    #main .artdos img {
+        height: 70px;
+        margin-top: auto;
+    }
+    #main .artdos p {
+        font-size: medium;
+        margin-top: auto;
+    }
+    #main .arttres img {
+        height: 100px;
+        margin-top: auto;
+    }
+    #main .arttres p {
+        font-size: medium;
+        margin-top: auto;
+    }
+
+}
+
+@media (max-width:440px){
+    #main {
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
 
 
 
