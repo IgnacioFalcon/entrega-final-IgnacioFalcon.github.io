@@ -235,6 +235,28 @@ nav a:hover {
     
 }
 
+#contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+#contacto .formcontacto {
+    background-color: rgb(112, 149, 170);
+    align-items: center;
+    padding: 5px;
+    border: 1px solid black;
+}    
+#contacto .formcontacto table {
+    padding: 50px;
+    width: 600px;
+    height: 600px;
+}
+  
+
 
 
 @media (max-width:600px){
