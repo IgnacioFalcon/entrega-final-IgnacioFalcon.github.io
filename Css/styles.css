@@ -5,6 +5,12 @@
     font-family: sans-serif;
 }
 
+body {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
 #header {
     display: flex;
     min-height: 70px;
@@ -40,6 +46,8 @@ nav a {
     color: black;
     font-weight: 600;
     padding-right: 10px;
+    font-size: x-large;
+    padding: 10px;
 }
 
 nav a:hover {
@@ -66,6 +74,7 @@ nav a:hover {
     background-color: rgb(231, 90, 90);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     border: 2px solid black;
 }
@@ -81,6 +90,7 @@ nav a:hover {
     background-color: rgb(119, 212, 116);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     border: 2px solid black;
 }
@@ -98,6 +108,7 @@ nav a:hover {
     background-color: rgb(112, 96, 202);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     border: 2px solid black;
 }
@@ -112,6 +123,41 @@ nav a:hover {
     margin-top: 100px;
 }
 
+#footer {
+    width: 100%;
+    position: absolute;
+    background-color: rgb(68, 102, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#footer .logo {
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+#footer .contactos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+#footer .contactos img{
+    height: 60px;
+}
+
+#footer p {
+    font-size: x-large;
+}
+
+
+
+
+
+
 @media (max-width:600px){
     #header{
         flex-direction: column;
@@ -121,6 +167,27 @@ nav a:hover {
     }
     .separador h1{
         font-size: 15px;
+    }
+    #main .artuno img {
+        height: 200px;
+    }
+    #main .artuno p {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    #main .artdos img {
+        height: 150px;
+    }
+    #main .artdos p {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    #main .arttres img {
+        height: 200px;
+    }
+    #main .arttres p {
+        font-size: 30px;
+        margin-bottom: 10px;
     }
    
 }
