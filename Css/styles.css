@@ -18,6 +18,8 @@ body {
     padding: 10px;
     justify-content: space-between;
     align-items: center;
+    
+    
 }
 
 .banner {
@@ -133,7 +135,7 @@ nav a:hover {
     flex-direction: column;
 }
 #footer .logo {
-    height: 80px;
+    height: 50px;
     margin-bottom: 1rem;
 }
 
@@ -146,11 +148,11 @@ nav a:hover {
 }
 
 #footer .contactos img{
-    height: 60px;
+    height: 40px;
 }
 
 #footer p {
-    font-size: x-large;
+    font-size: medium;
 }
 
 
@@ -161,6 +163,7 @@ nav a:hover {
 @media (max-width:600px){
     #header{
         flex-direction: column;
+        
     }
     nav{
         padding: 10px 0px;
@@ -170,31 +173,60 @@ nav a:hover {
     }
     
     #main .artuno img {
-        height: 200px;
+        height: 100px;
+        margin-top: auto;
     }
     #main .artuno p {
-        font-size: 30px;
-        margin-bottom: 10px;
+        font-size: larger;
+        margin-top: auto;
     }
     #main .artdos img {
-        height: 150px;
+        height: 100px;
+        margin-top: auto;
     }
     #main .artdos p {
-        font-size: 30px;
-        margin-bottom: 10px;
+        font-size: larger;
+        margin-top: auto;
     }
     #main .arttres img {
-        height: 200px;
+        height: 100px;
+        margin-top: auto;
     }
     #main .arttres p {
-        font-size: 30px;
-        margin-bottom: 10px;
+        font-size: larger;
+        margin-top: auto;
     }
    
 }
 
-@media (min-width:601px) and (max-width:660px){
-    .separador h1{
-        font-size: 20px;
+@media (min-width:601px){
+    #main .artuno img {
+        height: 200px;
+        margin-top: auto;
     }
+    #main .artuno p {
+        font-size: x-large;
+        margin-top: auto;
+    }
+    #main .artdos img {
+        height: 100px;
+        margin-top: auto;
+    }
+    #main .artdos p {
+        font-size: x-large;
+        margin-top: auto;
+    }
+    #main .arttres img {
+        height: 150px;
+        margin-top: auto;
+    }
+    #main .arttres p {
+        font-size: x-large;
+        margin-top: auto;
+    }
+
 }
+
+
+
+    
