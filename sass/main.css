@@ -414,4 +414,11 @@ nav a:hover {
     display: flex;
     flex-direction: column;
   }
+  #servicios {
+    display: flex;
+    flex-direction: column;
+  }
+  #servicios .carga img {
+    height: 100px;
+  }
 }/*# sourceMappingURL=main.css.map */

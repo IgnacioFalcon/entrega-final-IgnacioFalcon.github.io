@@ -369,5 +369,16 @@ nav a:hover {
         flex-direction: column;
         
     }
+    #servicios {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #servicios .carga img {
+        height: 100px;
+    }
+
+
 
 }
