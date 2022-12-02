@@ -1,0 +1,31 @@
+#footer {
+    width: 100%;
+    position: absolute;
+    background-color: rgb(68, 102, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    & .logo {
+        height: 50px;
+        margin-bottom: 1rem;
+    }
+    
+    & .contactos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        
+    }
+    
+    & .contactos img{
+        height: 40px;
+        padding: 5px;
+    }
+    
+    & p {
+        font-size: medium;
+    }
+}
