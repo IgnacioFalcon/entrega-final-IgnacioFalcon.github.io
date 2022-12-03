@@ -183,6 +183,26 @@ nav a:hover {
   height: auto;
 }
 
+#contacto .form {
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  background-color: rgb(112, 149, 170);
+}
+#contacto .form textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#contacto .form input, textarea {
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  font-size: 15px;
+}
+
 #servicios {
   display: grid;
   grid-template-rows: repeat(auto-fit, minmax(15rem, 1fr));
@@ -217,25 +237,11 @@ nav a:hover {
   text-align: center;
 }
 
-#contacto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-}
-
-#contacto .formcontacto {
+.separadorDeposito {
   background-color: rgb(112, 149, 170);
-  align-items: center;
-  padding: 5px;
+  margin: 50px;
   border: 1px solid black;
-}
-
-#contacto .formcontacto table {
-  padding: 50px;
-  width: 600px;
-  height: 600px;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
@@ -356,6 +362,9 @@ nav a:hover {
   #marcas .titulo h2 {
     font-size: medium;
   }
+  #contacto .form {
+    width: 100%;
+  }
 }
 @media (max-width: 319px) {
   .logo img {
@@ -420,5 +429,8 @@ nav a:hover {
   }
   #servicios .carga img {
     height: 100px;
+  }
+  .separadorDeposito h1 {
+    font-size: medium;
   }
 }/*# sourceMappingURL=main.css.map */
